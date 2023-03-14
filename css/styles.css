@@ -19,6 +19,8 @@
   --accent-color: #e7e9fc;
   /* WHITE-C */
   --white-color: #fff;
+  /* LIGHT SLATE */
+  --helper-color: #8e8f99;
 }
 
 body {
@@ -390,4 +392,69 @@ footer {
   width: 264px;
   height: 112px;
   background-color: var(--light-mode-color);
+}
+
+.team-social-list {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-social-item {
+  width: 40px;
+  height: 40px;
+}
+.team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 50%;
+  background-color: var(--button-normal-color);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--button-hover-color);
+}
+.social-icon {
+  width: 16px;
+  height: 16px;
+
+  fill: var(--light-mode-color);
+}
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+.customers-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+.customers-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  border: 1px solid var(--helper-color);
+  border-radius: 4px;
+
+  fill: var(--helper-color);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border-color: var(--button-hover-color);
+  fill: var(--button-hover-color);
+}
+
+.customers-icon {
+  width: 104px;
+  height: 56px;
 }
