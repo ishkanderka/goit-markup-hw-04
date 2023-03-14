@@ -380,3 +380,14 @@ footer {
   color: var(--accent-color);
   width: 264px;
 }
+
+/* SVG */
+.future-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  width: 264px;
+  height: 112px;
+  background-color: var(--light-mode-color);
+}
