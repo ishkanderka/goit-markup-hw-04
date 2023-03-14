@@ -262,28 +262,6 @@ img {
   margin-right: 0;
 }
 
-.future-list > .item::before {
-  content: "";
-  display: block;
-  height: 112px;
-  margin-bottom: 8px;
-}
-.future-list > .item:nth-child(1):before {
-  background-image: url("../images/icons/Icon_1.svg");
-}
-
-.future-list > .item:nth-child(2):before {
-  background-image: url("../images/icons/Icon_2.svg");
-}
-
-.future-list > .item:nth-child(3):before {
-  background-image: url("../images/icons/Icon_3.svg");
-}
-
-.future-list > .item:nth-child(4):before {
-  background-image: url("../images/icons/Icon_4.svg");
-}
-
 /* PROJECTS */
 .projects-list {
   display: flex;
